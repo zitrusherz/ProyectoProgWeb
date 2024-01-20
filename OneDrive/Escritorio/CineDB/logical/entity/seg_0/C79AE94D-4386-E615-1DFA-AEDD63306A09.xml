@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C79AE94D-4386-E615-1DFA-AEDD63306A09" name="MOVIE">
+<createdBy>chris</createdBy>
+<createdTime>2024-01-20 21:09:32 UTC</createdTime>
+<ownerDesignName>CineDB</ownerDesignName>
+<engineerTo>
+<item key="A6DFDF33-5BFE-C9C4-E1B5-668F45B0AE30" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="CF2265AD-D934-BED0-A150-9611E5813FC8">
+<createdBy>chris</createdBy>
+<createdTime>2024-01-20 21:18:17 UTC</createdTime>
+<ownerDesignName>CineDB</ownerDesignName>
+<engineerTo>
+<item key="A6DFDF33-5BFE-C9C4-E1B5-668F45B0AE30" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="titulo" id="3F8F7ADD-EAD7-AAA6-1593-6B6A938D5F3E">
+<createdBy>chris</createdBy>
+<createdTime>2024-01-20 21:28:53 UTC</createdTime>
+<ownerDesignName>CineDB</ownerDesignName>
+<engineerTo>
+<item key="A6DFDF33-5BFE-C9C4-E1B5-668F45B0AE30" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 CHAR</dataTypeSize>
+<ownDataTypeParameters>250 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="director" id="C63715CB-6AA7-0A3F-ED8E-9F167605EDBE">
+<createdBy>chris</createdBy>
+<createdTime>2024-01-20 21:30:20 UTC</createdTime>
+<ownerDesignName>CineDB</ownerDesignName>
+<engineerTo>
+<item key="A6DFDF33-5BFE-C9C4-E1B5-668F45B0AE30" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="año" id="B3F35C3D-4DA3-92AE-288C-94D5D7E2871C">
+<createdBy>chris</createdBy>
+<createdTime>2024-01-20 21:31:27 UTC</createdTime>
+<ownerDesignName>CineDB</ownerDesignName>
+<engineerTo>
+<item key="A6DFDF33-5BFE-C9C4-E1B5-668F45B0AE30" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="duracion" id="5ABDB2D7-F6B8-A0BD-D220-53AEB33243BA">
+<createdBy>chris</createdBy>
+<createdTime>2024-01-20 21:32:06 UTC</createdTime>
+<ownerDesignName>CineDB</ownerDesignName>
+<engineerTo>
+<item key="A6DFDF33-5BFE-C9C4-E1B5-668F45B0AE30" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="1C7F0C53-5F1F-C789-7D26-9EF63BBAB5A5">
+<createdBy>chris</createdBy>
+<createdTime>2024-01-20 21:43:16 UTC</createdTime>
+<generatorID>04FF9699-E2A2-B329-B93F-421071771746</generatorID>
+<ownerDesignName>CineDB</ownerDesignName>
+<engineerTo>
+<item key="A6DFDF33-5BFE-C9C4-E1B5-668F45B0AE30" value="true"/>
+</engineerTo>
+<referedAttribute>7F6ED568-1265-2786-A1AD-079335B18D14</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="40E48130-9F4A-D7E6-7C4F-0108B18A74C2" name="MOVIE PK">
+<createdBy>chris</createdBy>
+<createdTime>2024-01-20 21:27:35 UTC</createdTime>
+<ownerDesignName>CineDB</ownerDesignName>
+<engineerTo>
+<item key="A6DFDF33-5BFE-C9C4-E1B5-668F45B0AE30" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CF2265AD-D934-BED0-A150-9611E5813FC8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
