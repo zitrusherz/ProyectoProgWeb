@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="F6E70F43-6069-707D-2F76-1526C56BB14B" mainViewID="5C91A9BB-75DE-9C4F-AE3B-A85077B4810C">
-<createdBy>chris</createdBy>
-<createdTime>2024-01-20 21:08:05 UTC</createdTime>
-<ownerDesignName>CineDB</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</LogicalDesign>
